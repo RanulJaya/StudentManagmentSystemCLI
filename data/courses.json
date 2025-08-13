@@ -1,0 +1,14 @@
+[
+    {
+        "id": 1,
+        "subjects": "Physics"
+    },
+    {
+        "id": 2,
+        "subjects": "Chemistry"
+    },
+    {
+        "id": 3,
+        "subjects": "Mathematics"
+    }
+]

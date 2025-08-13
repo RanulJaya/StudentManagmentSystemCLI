@@ -1,0 +1,50 @@
+[
+    {
+        "studentid": 1,
+        "studentName": "Ranul",
+        "age": 25,
+        "courseid": 1
+    },
+    {
+        "studentid": 2,
+        "studentName": "Lunar",
+        "age": 25,
+        "courseid": 2
+    },
+    {
+        "studentid": 3,
+        "studentName": "Robin",
+        "age": "19",
+        "courseid": 3
+    },
+    {
+        "studentid": 4,
+        "studentName": "test",
+        "age": "45",
+        "courseid": 1
+    },
+    {
+        "studentid": 5,
+        "studentName": "test2",
+        "age": "67",
+        "courseid": 3
+    },
+    {
+        "studentid": 6,
+        "studentName": "Linus",
+        "age": "18",
+        "courseid": 1
+    },
+    {
+        "studentid": 7,
+        "studentName": "Ranu",
+        "age": "19",
+        "courseid": 2
+    },
+    {
+        "studentid": 8,
+        "studentName": "Hu",
+        "age": "128",
+        "courseid": 1
+    }
+]
