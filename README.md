@@ -1,5 +1,6 @@
 # Student Management System
 
+## *Table of Contents*
 - [Introduction](#introduction)
 
 ## Introduction
