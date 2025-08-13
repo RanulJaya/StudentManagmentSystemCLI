@@ -30,7 +30,7 @@ class Student(Courses):
     def readfromFileAndAppend(self):
         
         # Path of the user.json file to use Pathlib functions
-        config_file = pathlib.Path("StudentManagmentSystem/data/user.json")
+        config_file = pathlib.Path("data/user.json")
 
         # read file contents of the json 
         with config_file.open(mode="r", encoding="utf-8") as file:
@@ -47,8 +47,8 @@ class Student(Courses):
 
     def checkStudentCourse(self):
         # Path of the courses.json file to use Pathlib functions
-        course_file = pathlib.Path("StudentManagmentSystem/data/courses.json")
-        user_file = pathlib.Path("StudentManagmentSystem/data/user.json")
+        course_file = pathlib.Path("data/courses.json")
+        user_file = pathlib.Path("data/user.json")
 
         # read files of user and course 
         with course_file.open(mode="r", encoding="utf-8") as file:
@@ -64,5 +64,6 @@ class Student(Courses):
                 updatedStudent.courseid = iterstudent["courseid"]
                 print(self.studentname + " does " + updatedStudent.retrieveCourse(scrapedCourses))
                 break
-
-
+    
+    def studentTobeRemoved(self):
+        print(self.studentname)
