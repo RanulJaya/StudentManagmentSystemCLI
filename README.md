@@ -35,10 +35,20 @@ This will ask the user to enter in the name, age and course for the new student 
 
 ## Remove
 
+Option allows user to remove students from the list
+
+![alt text](image-2.png)
 
 
 ## Update
 
+This allows user to update the students from the current course to a new course
+
+![alt text](image-3.png)
 
 
 ## Check
+
+This option allows the user to check what course the student is currently doing
+
+![alt text](image-4.png)
