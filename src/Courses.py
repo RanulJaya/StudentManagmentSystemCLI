@@ -19,8 +19,6 @@ class Courses:
             if iter["subjects"] == self.coursename:
                 self.courseid = int(iter["id"])
                 break
-
-        file.close()
         
         return self.courseid is not 0
 
