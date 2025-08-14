@@ -1,11 +1,5 @@
 [
     {
-        "studentid": 1,
-        "studentName": "Ranul",
-        "age": 25,
-        "courseid": 2
-    },
-    {
         "studentid": 2,
         "studentName": "Lunar",
         "age": 25,
@@ -52,5 +46,11 @@
         "studentName": "Tru",
         "age": "19",
         "courseid": 2
+    },
+    {
+        "studentid": 10,
+        "studentName": "Lui",
+        "age": "18",
+        "courseid": 1
     }
 ]

@@ -18,6 +18,7 @@ def runPrompt():
     else:
         print("Course could not be added in")
 
+
 # Update the student information (course)
 def updateStudentInfo():
     checkStudent = input("Who is the student that you want to update? ")
@@ -27,6 +28,7 @@ def updateStudentInfo():
     # run the function to update the student
     stu.updateCourseofStudent(stu.studentname)
 
+
 def runCheckStudentCourse():
     # Check the user name
     studentname = input("Who is the student info you want to check? ")
@@ -35,16 +37,22 @@ def runCheckStudentCourse():
     # Run to check the student course
     stu.checkStudentCourse()
 
+
 def removeStudentFromList():
     userinput = input("Which student do you want to remove? ")
     stu = Student(studentname=userinput, studentage="", studencourse="")
     stu.studentTobeRemoved()
 
+def addCourseToList():
+    userInput = input("What course do you want to add in? ")
+    stu = Student("","", studencourse=userInput)
+    stu.addCourseToList()
+
 def runMainLoop():
     userinput = ""
     # Run the loop until user exists
     while userinput != "6":
-        print("Hi User, what do you want to do? \n 1: Add Student to a course \n 2: Update student \n 3: remove student \n 4: remove course \n 5: Check what the student is enrolled to \n 6: exit")
+        print("Hi User, what do you want to do? \n 1: Add Student to a course \n 2: Update student \n 3: remove student \n 4: Add course \n 5: Check what the student is enrolled to \n 6: exit")
         userinput = input("Please enter in a number: ")
         
         # Add user to the list from the courses listed
@@ -56,6 +64,9 @@ def runMainLoop():
         
         elif userinput == "3":
             removeStudentFromList()
+        
+        elif userinput == "4":
+            addCourseToList()
         
         # Check the student info
         elif userinput == "5":

@@ -64,6 +64,22 @@ class Student(Courses):
                 updatedStudent.courseid = iterstudent["courseid"]
                 print(self.studentname + " does " + updatedStudent.retrieveCourse(scrapedCourses))
                 break
-    
+            
+    # Student to be removed 
     def studentTobeRemoved(self):
-        print(self.studentname)
+        
+        with open(file="data/user.json", encoding="utf-8", mode="r") as file:
+            studentRemove = json.load(file)
+
+        for iter in studentRemove:
+            if iter["studentName"] == self.studentname:
+                for st in range(len(studentRemove)):
+                    if iter == studentRemove[st]:
+                        del studentRemove[st]
+                        break
+                break
+
+        with open(file="data/user.json", encoding="utf-8", mode="w") as file:
+            json.dump(studentRemove, file, indent=4)
+
+        print("Student has been deleted sucessfully!")

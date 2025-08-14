@@ -23,7 +23,8 @@ class Courses:
         file.close()
         
         return self.courseid is not 0
-    
+
+
     def retrieveCourse(self, getSubjectInfo):
         for iter in getSubjectInfo:
             if self.courseid == iter["id"]:
@@ -31,6 +32,7 @@ class Courses:
                 break
         
         return self.coursename
+
 
     def updateStudentCourse(self, studentName):
         # Path of the users.json file to use Pathlib functions
@@ -49,8 +51,18 @@ class Courses:
         with config_file.open(mode="w", encoding="utf-8") as file:
             json.dump(studentCouseUpdate, file, indent=4) 
 
+
     # function to update student from the main loop
     def updateCourseofStudent(self, studentName):
         if self.checkCourseExists():
             self.updateStudentCourse(studentName)
+
+
+    # function to add course to a list
+    def addCourseToList(self):
+        with open(file = "data/courses.json", encoding="utf-8", mode="r") as file:
+            addCourse = json.load(file)
+        
+        
+
         

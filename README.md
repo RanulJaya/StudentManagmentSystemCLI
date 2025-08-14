@@ -1,11 +1,28 @@
 # Student Management System
 
 ## *Table of Contents*
-- [Introduction](#introduction)
-- [Add](#add)
-- [Remove](#remove)
-- [Update](#remove)
-- [Check](#check)
+- [Student Management System](#student-management-system)
+  - [*Table of Contents*](#table-of-contents)
+  - [Getting Started](#getting-started)
+      - [Cloning repo](#cloning-repo)
+    - [](#)
+    - [](#-1)
+  - [Introduction](#introduction)
+      - [This is a Student Management System for users to add, remove, update](#this-is-a-student-management-system-for-users-to-add-remove-update)
+  - [Add](#add)
+  - [Remove](#remove)
+  - [Update](#update)
+  - [Check](#check)
+
+## Getting Started
+
+#### Cloning repo
+
+###
+    git clone https://github.com/RanulJaya/StudentManagmentSystemCLI.git
+###
+
+
 
 ## Introduction
 #### This is a Student Management System for users to add, remove, update
