@@ -6,7 +6,6 @@
   - [*Table of Contents*](#table-of-contents)
   - [Getting Started](#getting-started)
     - [Cloning repo](#cloning-repo)
-    - [](#)
   - [Introduction](#introduction)
   - [Add](#add)
   - [Remove](#remove)
@@ -18,7 +17,6 @@
 
 ### Cloning repo
     git clone https://github.com/RanulJaya/StudentManagmentSystemCLI.git
-###
 
 
 
