@@ -63,6 +63,12 @@ class Courses:
         with open(file = "data/courses.json", encoding="utf-8", mode="r") as file:
             addCourse = json.load(file)
         
+        data = {"id" : addCourse[-1]["id"] + 1, "subjects" : self.coursename}
+        addCourse.append(data)
+
+        with open(file="data/courses.json", encoding="utf-8", mode="w") as file:
+            json.dump(addCourse, file, indent=4)
         
+        print(self.coursename + " has been added in!")
 
         

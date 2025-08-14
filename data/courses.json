@@ -10,5 +10,9 @@
     {
         "id": 3,
         "subjects": "Mathematics"
+    },
+    {
+        "id": 4,
+        "subjects": "Finance"
     }
 ]

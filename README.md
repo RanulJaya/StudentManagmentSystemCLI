@@ -1,9 +1,9 @@
 # Student Management System
 
-## *Table of Contents*
+## Table of Contents
 
 - [Student Management System](#student-management-system)
-  - [*Table of Contents*](#table-of-contents)
+  - [Table of Contents](#table-of-contents)
   - [Getting Started](#getting-started)
     - [Cloning repo](#cloning-repo)
   - [Introduction](#introduction)
@@ -21,13 +21,17 @@
 
 
 ## Introduction
+
 This is a Student Management System for users to add, remove, update
+
 <img width="835" height="124" alt="image" src="https://github.com/user-attachments/assets/fe316708-deaf-4a40-afbc-36cae8f96391" />
 
 
 ## Add
 
+This will ask the user to enter in the name, age and course for the new student to be added in:
 
+![alt text](image-1.png)
 
 ## Remove
 
